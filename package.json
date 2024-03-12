@@ -1,0 +1,15 @@
+{
+  "name": "dev-club-localstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Charlie-J-Martin/dev-club-localstack.git",
+  "author": "Charlie Martin <c.martin.1@elsevier.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
