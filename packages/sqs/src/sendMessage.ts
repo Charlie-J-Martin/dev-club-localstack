@@ -7,7 +7,7 @@ type Message = {
   message: string;
 };
 
-export const sendMessage = async (queueUrl: string, message: Message) => {
+export const sendMessageToSQS = async (queueUrl: string, message: Message) => {
   const params = {
     QueueUrl: queueUrl,
     MessageBody: JSON.stringify(message),
