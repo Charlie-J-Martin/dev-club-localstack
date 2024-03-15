@@ -1,0 +1,16 @@
+{
+  "name": "sqs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/main.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.529.1"
+  }
+}
