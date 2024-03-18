@@ -20,33 +20,39 @@ These instructions will get you a copy of the project up and running on your loc
 
 3. Navigate to the project directory:
    
-`cd dev-club-localstack`
+```cd dev-club-localstack```
 
 5. Install the dependencies:
    
-`yarn`
+```yarn```
 
 ### Running the Localstack Docker Image
 
 Navigate to the localstack-config directory and start the Docker image:
 
-`cd packages/localstack-config`
-`docker-compose up`
+```
+cd packages/localstack-config
+docker-compose up
+```
 
 ### Creating a Queue
 Navigate to the sqsClient directory and run the createSQSQueue.ts script:
 
-`cd ../sqsClient/src`
-`yarn run start`
-
+```
+cd ../sqsClient/src
+yarn run start
+```
 ### Starting the Message Generator
 Navigate to the message-generator directory and start the application:
 
-`cd ../../message-generator/src`
-`yarn run start`
-
+```
+cd ../../message-generator/src
+yarn run start
+```
 ### Starting the Message Processor
 In a separate termianl, navigate to the message-processor directory and start the application:
 
-`cd ../../message-processor/src`
-`yarn run start`
+```
+cd ../../message-processor/src
+yarn run start
+```
