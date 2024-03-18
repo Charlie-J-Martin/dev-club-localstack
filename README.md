@@ -1,8 +1,10 @@
-# dev-club-localstack
+# Dev Club talks - LocalStack
 
-This project is a collection of packages that work together to generate and process messages using AWS SQS and Localstack.
+Within my current team at Elsevier, we host a weekly Dev Club that meets every Friday morning. We start with a quick talk from someone in the team on a topic related to our work or something new that someone has discovered. Then, we discuss coding best practices. Finally, we review solutions for a Code Kata that was picked the previous week.
 
 ## Getting Started
+
+This project is a collection of packages that work together to generate and process messages using AWS SQS and Localstack.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
