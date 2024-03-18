@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:Charlie-J-Martin/dev-club-localstack.git",
-  "author": "Charlie Martin <c.martin.1@elsevier.com>",
+  "author": "Charlie Martin <charliejm7@gmail.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
