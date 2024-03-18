@@ -16,15 +16,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
    
-```git clone <repository-url>```
-
+```   
+git clone <repository-url>
+```
 3. Navigate to the project directory:
    
-```cd dev-club-localstack```
+```
+cd dev-club-localstack
+```
 
 5. Install the dependencies:
    
-```yarn```
+```
+yarn
+```
 
 ### Running the Localstack Docker Image
 
